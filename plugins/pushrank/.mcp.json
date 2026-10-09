@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "pushrank": {
+      "type": "http",
+      "url": "https://ai.pushrank.io/mcp"
+    }
+  }
+}

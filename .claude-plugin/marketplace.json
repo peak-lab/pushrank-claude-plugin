@@ -1,0 +1,15 @@
+{
+  "name": "pushrank",
+  "description": "Official PushRank plugins for Claude.",
+  "owner": {
+    "name": "PeakLab",
+    "email": "contact@pushrank.io"
+  },
+  "plugins": [
+    {
+      "name": "pushrank",
+      "source": "./plugins/pushrank",
+      "description": "Run your SEO from Claude: Google Search Console opportunities, quality-gated articles, keywords, and CMS publishing."
+    }
+  ]
+}
