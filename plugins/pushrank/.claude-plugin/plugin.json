@@ -3,8 +3,10 @@
   "displayName": "PushRank",
   "version": "0.1.0",
   "description": "Run your SEO from Claude: review Google Search Console opportunities, generate quality-gated articles, manage keywords, and publish to your CMS through your PushRank account.",
+  "icon": ".claude-plugin/icon.png",
   "author": { "name": "PeakLab", "url": "https://pushrank.io" },
   "homepage": "https://pushrank.io",
+  "privacyPolicyUrl": "https://pushrank.io/privacy-policy",
   "repository": "https://github.com/peak-lab/pushrank-claude-plugin",
   "license": "MIT",
   "keywords": ["seo", "content", "google-search-console", "cms", "marketing"]
