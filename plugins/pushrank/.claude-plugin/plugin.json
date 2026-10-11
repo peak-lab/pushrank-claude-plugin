@@ -7,6 +7,9 @@
   "author": { "name": "PeakLab", "url": "https://pushrank.io" },
   "homepage": "https://pushrank.io",
   "privacyPolicyUrl": "https://pushrank.io/privacy-policy",
+  "termsOfServiceUrl": "https://pushrank.io/cgu",
+  "supportUrl": "mailto:contact@pushrank.io",
+  "documentationUrl": "https://github.com/peak-lab/pushrank-claude-plugin/tree/main/plugins/pushrank#readme",
   "repository": "https://github.com/peak-lab/pushrank-claude-plugin",
   "license": "MIT",
   "keywords": ["seo", "content", "google-search-console", "cms", "marketing"]
