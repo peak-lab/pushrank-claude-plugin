@@ -1,9 +1,9 @@
 ---
 name: generate-article
-description: Generate an SEO article with PushRank. Use when the user asks to write, create, or generate an article or blog post, to act on a content-creation opportunity, or to produce the next item of their content plan.
+description: Generate an SEO article with Pushrank. Use when the user asks to write, create, or generate an article or blog post, to act on a content-creation opportunity, or to produce the next item of their content plan.
 ---
 
-# Generate an article with PushRank
+# Generate an article with Pushrank
 
 Answer in the user's language. Generation consumes article quota, so never start it without an
 explicit request from the user.

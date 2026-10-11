@@ -1,6 +1,6 @@
 {
   "name": "pushrank",
-  "description": "Official PushRank plugins for Claude.",
+  "description": "Official Pushrank plugins for Claude.",
   "owner": {
     "name": "PeakLab",
     "email": "contact@pushrank.io"

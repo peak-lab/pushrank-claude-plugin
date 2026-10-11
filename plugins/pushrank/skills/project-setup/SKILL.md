@@ -1,9 +1,9 @@
 ---
 name: project-setup
-description: Set up or complete a PushRank project. Use when the user is getting started with PushRank, asks what is left to configure, wants to connect their CMS, correct their business profile or brand voice, reanalyse a page, or claim the welcome backlink.
+description: Set up or complete a Pushrank project. Use when the user is getting started with Pushrank, asks what is left to configure, wants to connect their CMS, correct their business profile or brand voice, reanalyse a page, or claim the welcome backlink.
 ---
 
-# Set up a PushRank project
+# Set up a Pushrank project
 
 Answer in the user's language. Start with `whoami` to see the account, organisations, granted scopes
 and credits.
@@ -12,14 +12,14 @@ and credits.
 
 `get_onboarding_checklist` shows the five steps (site analysis, Google Search Console, website
 connection, 90-day SEO strategy, first content) and the next one. Google Search Console is connected
-from the PushRank dashboard, not from Claude: give the link.
+from the Pushrank dashboard, not from Claude: give the link.
 
 ## CMS connection
 
 1. `get_cms_config` shows the current state. Secret values are never returned.
 2. `configure_cms` previews a WordPress, Webflow, Wix, Framer or webhook connection, then saves and
    tests it after confirmation. Ask the user to type secrets themselves; omit a secret to keep the
-   stored one. Shopify is connected from the PushRank dashboard only. Saving requires the organisation
+   stored one. Shopify is connected from the Pushrank dashboard only. Saving requires the organisation
    owner role.
 
 ## Business profile and editorial context
