@@ -1,11 +1,11 @@
 ---
 name: seo-review
-description: Review a PushRank project's SEO performance and decide what to work on. Use when the user asks how their site is doing, what changed in Google Search Console, what their SEO priorities or quick wins are, or wants a weekly SEO review.
+description: Review a Pushrank project's SEO performance and decide what to work on. Use when the user asks how their site is doing, what changed in Google Search Console, what their SEO priorities or quick wins are, or wants a weekly SEO review.
 ---
 
-# SEO review with PushRank
+# SEO review with Pushrank
 
-Answer in the user's language. Use only the PushRank connector; never invent metrics.
+Answer in the user's language. Use only the Pushrank connector; never invent metrics.
 
 ## 1. Pick the project
 
@@ -28,12 +28,12 @@ Answer in the user's language. Use only the PushRank connector; never invent met
 - Lead with three to five actions, each naming the page or query, the opportunity type, and why it
   matters (clicks, impressions, position, CTR).
 - Group the rest in one short line per type. Do not paste raw tool output.
-- Link each action to the next PushRank step: a `content_creation` opportunity leads to the
+- Link each action to the next Pushrank step: a `content_creation` opportunity leads to the
   `generate-article` skill; a `decay` or `low_ctr` one to editing the existing article.
 
 ## 4. Triage (writes)
 
-`update_seo_opportunity_status` changes PushRank data. Call it only when the user asks to mark an
+`update_seo_opportunity_status` changes Pushrank data. Call it only when the user asks to mark an
 opportunity. Allowed transitions: `todo` to `in_progress`, `done` or `ignored`; `ignored` only goes back
 to `todo`. When ignoring, pass an `ignoredReason` if the user gave one. A missing
-`mcp:actions:write` scope means the user must reconnect PushRank and grant it.
+`mcp:actions:write` scope means the user must reconnect Pushrank and grant it.

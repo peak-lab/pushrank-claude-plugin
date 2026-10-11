@@ -1,9 +1,9 @@
 ---
 name: publish-article
-description: Publish, schedule, or edit a PushRank article on the user's CMS (WordPress, Webflow, Wix, Shopify, Framer, or webhook). Use when the user wants to put an article online, schedule it, change the automatic publishing cadence, or fix an article before it goes live.
+description: Publish, schedule, or edit a Pushrank article on the user's CMS (WordPress, Webflow, Wix, Shopify, Framer, or webhook). Use when the user wants to put an article online, schedule it, change the automatic publishing cadence, or fix an article before it goes live.
 ---
 
-# Publish an article with PushRank
+# Publish an article with Pushrank
 
 Answer in the user's language. Publishing changes the user's live website: confirm every write.
 
